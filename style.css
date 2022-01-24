@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+	margin: 0;
+}
+body{
+	background-color: #1B1B1B;
+	text-shadow: 1px 1px 1px #000000;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+header {
+	background-color: #030303;
+	height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+}
+.header__l {
+    padding-left: 20px;
+}
+.header__r {
+    padding-right: 20px;
+}
+.container{
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__desc{
+    padding: 50px 0 50px 0;
+    display: flex;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;
+    flex-direction: column;
+}
+.container__desc h1{
+	font-size: 32px;
+	line-height: 39px;
+
+	color: #FFFFFF;
+
+	text-shadow: 1px 1px 1px #000000;
+}
+.container__desc p{
+	width: 231px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #A5A5A5;
+
+	text-shadow: 1px 1px 1px #000000;
+}
+.container__giveaway{
+	height: 355px;
+
+	border: 1px dashed #323632;
+	box-sizing: border-box;
+}
+.giveaway__block {
+    padding: 0 15px 0 15px;
+}
+
+.giveaway__info {
+	padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.info__l, .info__r{
+	font-family: Montserrat;
+	font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.info__l img{
+	width: 12px;
+    margin-left: 10px;
+}
+.info__l a, .info__r p{
+	color: #BBBBBB;
+}
+.info__r p{
+	font-size: 11px;
+	margin-right: 10px;
+}
+.info__r span{
+	color: #CC0066;
+}
+.giveawey__name {
+    margin-top: 10px;
+    background-color: #323336;
+    color: #bbbbbb;
+    font-family: Montserrat;
+    font-size: 20px;
+    height: 35px;
+    align-items: center;
+    display: flex;
+}
+.giveawey__name p{
+	margin-left: 5px;
+}
+.giveawey__image img {
+    width: 100%;
+}
+.giveawey__members{
+	margin-top: 10px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid #323632;
+	box-sizing: border-box;
+
+	font-family: Montserrat;
+	font-size: 15px;
+	color: #BBBBBB;
+}
+.member__l{
+	margin-left: 10px;
+}
+.member__r p{
+	margin-right: 10px;
+	color: #FFC107;
+}
+.giveawey__claim{
+	display: flex;
+    align-items: center;
+	border: 1px solid #323632;
+	box-sizing: border-box;
+	height: 50px;
+    margin-top: 10px;
+
+    font-family: Montserrat;
+	font-size: 15px;
+}
+.giveawey__claim a{
+	color: #28A745;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container__winners{
+	margin-top: 50px;
+	margin-bottom: 40px;
+	width: 341px;
+	height: 365px;
+
+	border: 1px dashed #323632;
+	box-sizing: border-box;
+}
+.winners__block{
+    padding: 0 15px 0 15px;
+
+}
+.winners__title{
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	border: 1px solid #323632;
+	box-sizing: border-box;
+
+	font-family: Montserrat;
+	font-size: 15px;
+	color: #BBBBBB;
+}
+.winners__users{
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	height: 28px;
+	border: 1px solid #323632;
+	box-sizing: border-box;
+
+	font-family: Montserrat;
+	font-size: 13px;
+	color: #BBBBBB;
+}
+.winners__users p{
+	margin-left: 10px;
+}
+.footer{
+	align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background: #030303;
+    
+    font-family: Montserrat;
+	font-size: 13px;
+	color: #BBBBBB;
+}
